@@ -38,7 +38,7 @@ main() {
   if [ -d "$ZSH" ]; then
     printf "${YELLOW}You already have Oh My Zsh installed.${NORMAL}\n"
     printf "You'll need to remove $ZSH if you want to re-install.\n"
-    exit 2
+    exit 0
   fi
 
   # Prevent the cloned repository from having insecure permissions. Failing to do
